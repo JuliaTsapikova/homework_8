@@ -43,7 +43,7 @@ void Print2DArray(int[,] array)
 }
 
 void SumOfRows(int[,] array, int n)
-{   int [] result = new int[4];
+{   int [] result = new int[n];
     int sum = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {   
